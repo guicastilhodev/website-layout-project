@@ -1,0 +1,28 @@
+header {
+    background-color: var(--dark-background) ;
+    height: 64px;
+    padding: 0 240px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: var(--secondary-text);
+    filter: contrast(80%);
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
